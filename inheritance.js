@@ -15,7 +15,7 @@ class Person{ //base class or super class
 
 }
 
-class Student extends Person{ //child class or derived class
+class Student extends Person{ //child class or derived
     constructor(_name,_grade){
         super(_name)
         this.grade=_grade
