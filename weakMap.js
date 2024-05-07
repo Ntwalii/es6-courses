@@ -11,3 +11,4 @@ weak.set(obj2,"Hello")
 console.log(weak.has(obj1))
 console.log(weak.has(obj2))
 console.log(weak.get(obj1))
+

@@ -17,3 +17,7 @@
 
 let myMap=new Map([["a",1], ["b",2], ["c",3] ])
 console.log(myMap.get("a"))
+
+const x=myMap.keys()
+
+console.log(x)
