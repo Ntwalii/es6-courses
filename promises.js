@@ -6,7 +6,7 @@ let firstPromise=new Promise( (resolve,reject)=>{
     if(x&&y&&z){
         resolve("Created successfully");
     }
-    else if(x||y||z){
+    else{
         reject("Promises are complicating")
     }
 }
