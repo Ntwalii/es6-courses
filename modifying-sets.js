@@ -19,3 +19,12 @@ console.log(typeof games);
 for(const game of games){
     console.log(game);
 }
+
+let entriesArray=games.entries()
+console.log(entriesArray)
+
+let y=games.values()
+console.log(y)
+
+let x=games.keys()
+console.log(y)
