@@ -9,9 +9,11 @@ function * printer(){
 
 let big=printer()
 
-big.next();
-console.log(big.next("Aubin"))
-console.log(big.next())
+// big.next();
+// console.log(big.next("Aubin"))
+// console.log(big.next())
+// console.log(big.next())
+
 console.log(big.next())
 
 // function* displayResponse() {
