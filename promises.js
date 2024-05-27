@@ -48,6 +48,6 @@ let thirdPromise=new Promise( (resolve,reject)=>{
     console.error(error)
 })
 
-Promise.race([firstPromise,secondPromise,thirdPromise])
-Promise.all([firstPromise,secondPromise,thirdPromise])
-Promise.allSettled([firstPromise,secondPromise,thirdPromise])
+// console.log(Promise.race([firstPromise,secondPromise,thirdPromise]))
+// console.log(Promise.all([firstPromise,secondPromise,thirdPromise]))
+// console.log(Promise.allSettled([firstPromise,secondPromise,thirdPromise]))

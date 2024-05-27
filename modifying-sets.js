@@ -28,3 +28,4 @@ console.log(y)
 
 let x=games.keys()
 console.log(y)
+console.log(games.has('Banjo-Tooie'))

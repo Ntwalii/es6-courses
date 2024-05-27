@@ -1,4 +1,15 @@
-const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const digits = {
+    a:1,
+    b:2,
+    c:3,
+    [Symbol.iterator](){
+        return {
+            next(){
+                
+            }
+        }
+    }
+}
 
 const arrayIterator = digits[Symbol.iterator]();
 
