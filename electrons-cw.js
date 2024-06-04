@@ -1,8 +1,6 @@
 function atomicNumber(num){
  
-    let arr=[];
-    let temp=num;
-    let currentShell;
+    let arr=[], temp=num, currentShell;
     for(let i=1;i<=num;i++){
       currentShell=2*(i**2)
       if(temp===0){
