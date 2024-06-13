@@ -21,8 +21,8 @@ function rank(st, we, n) {
     winnings[sum]=element
     }
     else{
-      winnings[sum]=[winnings[sum],element]
-      winnings[sum]=[...winnings[sum]]
+      winnings[sum]+=","+element
+
     }
     sum=0
   })
@@ -30,16 +30,10 @@ function rank(st, we, n) {
   
   let sortedArray=Object.keys(winnings).sort((a,b)=>b-a)
   sortedArray.forEach((a)=>{
-    if(typeof winnings[a]==="string"){
-      ranked.push(winnings[a])
-    }
-    else{
-
-      ranked.push(...winnings[a].sort())
-    }
+      ranked.push(...winnings[a].split(",").sort())
   })
 
-   return ranked;
+   return ranked[n-1];
 }
 
 console.log(rank(names, weights, n));
