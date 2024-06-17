@@ -7,7 +7,7 @@ function dataReverse(data) {
  }
 return arr.join("").split(",").filter(Boolean).reverse().join("").split("").map(elt=>Number(elt))
   }
-
+  
   console.log(dataReverse([1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0]));
 
 
